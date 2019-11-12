@@ -1,0 +1,22 @@
+{
+  "name": "mathystuff",
+  "version": "1.0.0",
+  "description": "Math functions I am using to get through Tech Math 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohscx/mathyStuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohscx/mathyStuff/issues"
+  },
+  "homepage": "https://github.com/rohscx/mathyStuff#readme",
+  "dependencies": {
+    "fractional": "^1.0.0"
+  }
+}
