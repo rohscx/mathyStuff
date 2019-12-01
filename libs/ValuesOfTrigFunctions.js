@@ -13,22 +13,46 @@ module.exports = class {
             this.r = tan? new Number(Math.sqrt(1+Math.pow(tan,2))).toFixed(place) : Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
         }
         get sin() {
-            return new fraction(this.y,this.r);;
+            try {
+                return new fraction(this.y,this.r);
+            } catch (error) {
+                return this.y / this.r;
+            };
         }
         get cos(){
-            return new fraction(this.x,this.r);
+            try {
+                return new fraction(this.x,this.r);
+            } catch (error) {
+                return this.x / this.r;
+            };
         }
         get tan(){
-            return new fraction(this.y,this.x);
+            try {
+                return new fraction(this.y,this.x);
+            } catch (error) {
+                return this.y / this.x;
+            };
         }
         get csc(){
-            return new fraction(this.r,this.y);
+            try {
+                return new fraction(this.r,this.y);
+            } catch (error) {
+                return this.r / this.y;
+            };
         }
         get sec(){
-            return new fraction(this.r,this.x);
+            try {
+                return new fraction(this.r,this.x);
+            } catch (error) {
+                return this.r / this.x;
+            };
         }
         get cot(){
-            return new fraction(this.x,this.y);
+            try {
+                return new fraction(this.x,this.y);
+            } catch (error) {
+                return this.x / this.y;
+            };
         }
         set setR(value) {
             // an overid to set r as tan

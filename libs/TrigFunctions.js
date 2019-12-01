@@ -15,6 +15,10 @@ module.exports = class {
         const cos = new Number(Math.cos(this.degrees * Math.PI/180));
         return new Number(1/cos);
     }
+    get csc(){
+        const csc = new Number(Math.sin(this.degrees * Math.PI/180));
+        return new Number(1/csc);
+    }
     get aSin(){
         return new Number(Math.asin(this.degrees) * 180/Math.PI);
     }

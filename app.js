@@ -18,6 +18,14 @@ const sqrtDiv = require('./libs/sqrtDiv.js');
 const sqrtMul = require('./libs/sqrtMul.js');
 const TrigFunctions = require('./libs/TrigFunctions.js');
 const ValuesOfTrigFunctions = require('./libs/ValuesOfTrigFunctions.js');
+const pythagoreanTheorem = require('./libs/pythagoreanTheorem.js');
+const determineSignOfTrigonometricFuncrtion = require('./libs/determineSignOfTrigonometricFuncrtion.js');
+const squareRootSimpifier = require('./libs/squareRootSimpifier.js');
+const degreesToRadians = require('./libs/degreesToRadians.js');
+const ValuesOfTrigFunctionsAlpah = require('./libs/ValuesOfTrigFunctionsAlpha.js');
+const factorsOfNumber = require('./libs/factorsOfNumber.js');
+
+
 
 
 module.exports = {
@@ -41,4 +49,10 @@ module.exports = {
     sqrtMul,
     TrigFunctions,
     ValuesOfTrigFunctions,
+    pythagoreanTheorem,
+    determineSignOfTrigonometricFuncrtion,
+    squareRootSimpifier,
+    degreesToRadians,
+    ValuesOfTrigFunctionsAlpah,
+    factorsOfNumber,
 };
