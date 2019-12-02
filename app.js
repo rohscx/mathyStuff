@@ -24,6 +24,9 @@ const squareRootSimpifier = require('./libs/squareRootSimpifier.js');
 const degreesToRadians = require('./libs/degreesToRadians.js');
 const ValuesOfTrigFunctionsAlpah = require('./libs/ValuesOfTrigFunctionsAlpha.js');
 const factorsOfNumber = require('./libs/factorsOfNumber.js');
+const vectorComponets = require('./libs/vectorComponents.js');
+const vectorAddtionByComponentsRightAngle = require('./libs/vectorAddtionByComponentsRightAngle.js');
+const vectorAddtionByComponents = require('./libs/vectorAddtionByComponents.js');
 
 
 
@@ -55,4 +58,7 @@ module.exports = {
     degreesToRadians,
     ValuesOfTrigFunctionsAlpah,
     factorsOfNumber,
+    vectorComponets,
+    vectorAddtionByComponentsRightAngle,
+    vectorAddtionByComponents,
 };
